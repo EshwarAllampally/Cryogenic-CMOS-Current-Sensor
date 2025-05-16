@@ -104,7 +104,8 @@ We validated our design with realistic test inputs. Highlights:
 
 * **CDS Output**
 
-  * Offset and low-frequency noise significantly suppressed
+![Offset and low-frequency noise significantly suppressed](https://github.com/EshwarAllampally/Cryogenic-CMOS-Current-Sensor/blob/main/Assets/media/2_CDS_Amp_out_1.png)
+
 * **Comparator Output**
 
   * Clear digital HIGH/LOW levels corresponding to current thresholds
