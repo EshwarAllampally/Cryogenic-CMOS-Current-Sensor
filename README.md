@@ -147,6 +147,9 @@ We validated our design with realistic test inputs. Highlights:
 
 ![Clear digital HIGH/LOW levels corresponding to current thresholds](https://github.com/EshwarAllampally/Cryogenic-CMOS-Current-Sensor/blob/main/Assets/media/3_comparator_out.png)
 
+### Complete Sytem Design Schematic
+![System](https://github.com/EshwarAllampally/Cryogenic-CMOS-Current-Sensor/blob/main/Assets/media/0_master.png)
+
 ### System's Transient Analysis
 
 ![Complete System's Response](https://github.com/EshwarAllampally/Cryogenic-CMOS-Current-Sensor/blob/main/Assets/media/0_master_v1_1.png)
