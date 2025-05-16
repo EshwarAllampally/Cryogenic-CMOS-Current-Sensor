@@ -168,7 +168,7 @@ Our guesstimate (based on 45nm GPDK layout metrics):
 
 ## Next Steps (Where This Could Go)
 
-1. **Use Cryo Models**: Redo sims ([cool spice](https://coolcadelectronics.com/software/)) using actual cryogenic PDKs (like IBM 130nm cryo models)
+1. **Use Cryo Models**: Redo sims ([CoolSPICE](https://coolcadelectronics.com/software/)) using actual cryogenic PDKs (like IBM 130nm cryo models)
 2. **Full Layout + DRC/LVS**: Tape-out ready block for MPW shuttles
 3. **Noise & Mismatch Analysis**: Monte Carlo + PVT variation sweeps
 4. **Digital Integration**: Hook up to a backend readout chain or controller
