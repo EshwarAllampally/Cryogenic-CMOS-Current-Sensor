@@ -93,6 +93,47 @@ endmodule
 
 > We used this for fast convergence and ideal behavior in early stages.
 
+## Verilog-A Clocked Comparator Code Snippet
+
+Here's a minimal version of the behavioral comparator we used in Verilog-A:
+
+```verilog
+`include "constants.vams"
+`include "disciplines.vams"
+
+module comparator(in, clk, out);
+  electrical in, clk, out;
+
+  parameter real Vref = -0.25; // Reference voltage in volts (adjust as needed)
+  parameter real Vhigh = 1.0; // Output high level
+  parameter real Vlow  = 0.0; // Output low level
+  parameter real Vth_clk = 0.5; // Clock threshold for edge detection
+
+  real Vout;
+  real clk_prev;
+
+  analog begin
+    @(initial_step) begin
+      Vout = Vlow;
+      clk_prev = V(clk);
+    end
+
+    // Detect rising edge of the clock
+    if ((V(clk) > Vth_clk) && (clk_prev <= Vth_clk)) begin
+      if (V(in) < Vref)
+        Vout = Vhigh;
+      else
+        Vout = Vlow;
+    end
+
+    clk_prev = V(clk); // Store current clock for edge detection
+
+    // Drive output
+    V(out) <+ Vout;
+  end
+endmodule
+```
+
 
 ## Simulated Output Waveforms
 
