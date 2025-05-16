@@ -50,8 +50,6 @@ Subtracting these removes offset and **1/f noise**, which is vital for ultra-low
 
 ## Verilog-A Opamp Code Snippet
 
-Here's a minimal version of the behavioral opamp we used in Verilog-A:
-
 ```verilog
 `include "constants.vams"
 `include "disciplines.vams"
@@ -94,8 +92,6 @@ endmodule
 > We used this for fast convergence and ideal behavior in early stages.
 
 ## Verilog-A Clocked Comparator Code Snippet
-
-Here's a minimal version of the behavioral comparator we used in Verilog-A:
 
 ```verilog
 `include "constants.vams"
