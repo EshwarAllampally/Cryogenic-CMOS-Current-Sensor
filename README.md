@@ -159,7 +159,7 @@ These matched the expected waveforms from the reference paper.
 
 ## Area / Footprint Estimation
 
-Our guesstimate (based on typical 65nm CMOS layout metrics):
+Our guesstimate (based on 45nm GPDK layout metrics):
 
 * **Integrator + CDS + Opamp** ≈ **0.030 mm²**
 
