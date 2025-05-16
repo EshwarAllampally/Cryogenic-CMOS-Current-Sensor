@@ -12,7 +12,7 @@ This project explores a **Cryogenic CMOS Current Comparator** inspired by a real
 
 ## What is CDS and Who Invented It?
 
-**Correlated Double Sampling (CDS)** was introduced in the 1960s by **Willard Boyle and George Smith**—yup, the CCD inventors! It was developed to tackle **low-frequency noise and offset voltage** issues in imaging sensors.
+Correlated Double Sampling (CDS) was created in the 1960s by Willard Boyle and George Smith (the same folks who came up with CCDs). They came up with it to reduce unwanted noise and voltage errors in image sensors.
 
 CDS takes two samples:
 
