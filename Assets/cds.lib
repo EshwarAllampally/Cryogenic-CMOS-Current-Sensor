@@ -1,0 +1,63 @@
+DEFINE cdsDefTechLib /mnt/cadence_tools/IC618/tools/dfII/etc/cdsDefTechLib
+DEFINE basic /mnt/cadence_tools/IC618/tools/dfII/etc/cdslib/basic
+DEFINE analogLib /mnt/cadence_tools/IC618/tools/dfII/etc/cdslib/artist/analogLib
+DEFINE gpdk045 /mnt/cadence_tools/gpdk045_v_6_0/gpdk045
+DEFINE gpdk090 /mnt/cadence_tools/gpdk090_v4.6/libs.oa22/gpdk090
+DEFINE gpdk180 /mnt/cadence_tools/gpdk180_v3.3/libs.oa22/gpdk180
+DEFINE umc110ae ./umc110ae
+
+
+SOFTINCLUDE /mnt/cadence_tools/IC231/share/cdssetup/cds.lib
+#Removed by ddDeleteObj: DEFINE test /home/cadencea11/test
+#Removed by ddDeleteObj: DEFINE aditya_140125 /home/cadencea11/aditya_140125
+#Removed by ddDeleteObj: DEFINE rr /home/cadencea11/rr
+#Removed by ddDeleteObj: DEFINE rr /home/cadencea11/gpdk045_v_6_0/rr
+DEFINE gh /home/cadencea11/gh
+DEFINE harsh /home/cadencea11/harsh
+DEFINE huzaifa /home/cadencea11/huzaifa
+DEFINE LDO_90 /home/cadencea11/M_Ni_lib_90nm
+DEFINE Klass_FF /home/cadencea11/Klass_FF
+DEFINE Flash /home/cadencea11/Flash
+DEFINE Bois_New /home/cadencea11/Bois/Bois_New
+DEFINE Try1 /home/cadencea11/Try1
+DEFINE test /home/cadencea11/test
+#Removed by ddDeleteObj: DEFINE test1 /home/cadencea11/test1
+#Removed by ddDeleteObj: DEFINE test1 /home/cadencea11/test1
+DEFINE him_rishik /home/cadencea11/him_rishik
+DEFINE test1 /home/cadencea11/test1
+DEFINE 3_assign_vlsi_arch /home/cadencea11/3_assign_vlsi_arch
+DEFINE chirag_ass2 /home/cadencea11/chirag_ass2
+DEFINE satya /home/cadencea12/satya
+DEFINE DAHLDO /home/cadencea12/DAHLDO
+DEFINE test /home/cadencea12/sky130_scl_9T_0.0.5a/test
+DEFINE SATYAAA /home/cadencea12/SATYAAA
+DEFINE clock_generator /home/cadencea12/clock_generator
+DEFINE event_detector /home/cadencea12/event_detector
+DEFINE FlashADC /home/cadencea12/FlashADC
+DEFINE flashadc /home/cadencea12/flashadc
+DEFINE adc /home/cadencea12/adc
+DEFINE new_cell /home/cadencea12/new_cell
+DEFINE ADC_Flash /home/cadencea12/ADC_Flash
+DEFINE clk_gen /home/cadencea12/clk_gen
+DEFINE analogldo /home/cadencea12/analogldo
+DEFINE new_analogldo /home/cadencea12/Documents/Harsh/ldo_new
+DEFINE Digital_ldo /home/cadencea12/Documents/Harsh/Digital_LDO_new
+DEFINE Digital_LDO_new /home/cadencea12/Downloads/Digital_LDO_new
+DEFINE jhaa_saab /home/cadencea12/jhaa_saab
+#Removed by ddDeleteObj: DEFINE r /home/cadencea12/r
+DEFINE Digital /home/cadencea12/Documents/Harsh/digital_ldo_sar_Adc
+DEFINE adcflash /home/cadencea12/adcflash
+DEFINE flashadc_new /home/cadencea12/flashadc_new
+DEFINE flashadc_tb /home/cadencea12/flashadc_tb
+DEFINE daldo_adc /home/cadencea12/daldo_adc
+DEFINE war_DLDO /home/cadencea12/war_DLDO
+DEFINE adcflashworking /home/cadencea12/adcflashworking
+DEFINE harsh /home/cadencea12/harsh
+DEFINE ldo_new /home/cadencea12/ldo_new
+DEFINE Cryogenic_PMIC /home/cadencea12/Cryogenic_PMIC
+DEFINE verilogA_symbols /home/cadencea12/verilogA_symbols
+DEFINE arun /home/cadencea12/arun
+DEFINE PMIC_Assignment_4 /home/cadencea12/PMIC_Assignment_4
+DEFINE selfbiased_comp /home/cadencea12/selfbiased_comp
+
+DEFINE pmic_project /home/cadencea12/pmic_project
