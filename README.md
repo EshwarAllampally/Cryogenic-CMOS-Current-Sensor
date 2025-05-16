@@ -108,7 +108,7 @@ We validated our design with realistic test inputs. Highlights:
 
 * **Comparator Output**
 
-  * Clear digital HIGH/LOW levels corresponding to current thresholds
+![Clear digital HIGH/LOW levels corresponding to current thresholds](https://github.com/EshwarAllampally/Cryogenic-CMOS-Current-Sensor/blob/main/Assets/media/3_comparator_out.png)
 
 ### Example: Comparator Transient
 
