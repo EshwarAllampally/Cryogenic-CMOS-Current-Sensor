@@ -175,6 +175,10 @@ Our guesstimate (based on 45nm GPDK layout metrics):
 * **Eshwar (MT2024504)** 
 * **Manoj (MT2024543)**
 
+## Acknowledgements
+
+Prof. Sakshi Arora – Guidance, mentorship, and review throughout the project
+
 ## References
 
 * IEEE Paper: [*A Cryogenic CMOS Current Integrator and CDS for Spin Qubit Readout*](https://www.researchgate.net/publication/374302416_A_Cryogenic_CMOS_Current_Integrator_and_Correlation_Double_Sampling_Circuit_for_Spin_Qubit_Readout)
