@@ -186,4 +186,4 @@ Our guesstimate (based on 45nm GPDK layout metrics):
 
 ## Final Word
 
-This was a dive into the nitty-gritty of **precision analog design**, with a splash of **quantum hardware relevance**. The integrator + CDS combo is a practical analog front-end that scales with CMOS — and could be the unsung hero of low-temp quantum readout.
+This is about precise analog design with some quantum relevance. The integrator + CDS setup works well with CMOS and might be key for low-temp quantum readout.
