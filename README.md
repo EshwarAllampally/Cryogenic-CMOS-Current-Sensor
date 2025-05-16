@@ -100,7 +100,8 @@ We validated our design with realistic test inputs. Highlights:
 
 * **Integrator Output (Ramp Current Input)**
 
-  * Clear linear ramp response, slope proportional to input current
+![Clear linear ramp response, slope proportional to input current](https://github.com/EshwarAllampally/Cryogenic-CMOS-Current-Sensor/blob/main/Assets/media/1_integrator_ramp_out.png)
+
 * **CDS Output**
 
   * Offset and low-frequency noise significantly suppressed
