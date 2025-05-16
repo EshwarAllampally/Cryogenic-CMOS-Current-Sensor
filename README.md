@@ -151,18 +151,13 @@ We validated our design with realistic test inputs. Highlights:
 
 ![Clear digital HIGH/LOW levels corresponding to current thresholds](https://github.com/EshwarAllampally/Cryogenic-CMOS-Current-Sensor/blob/main/Assets/media/3_comparator_out.png)
 
-### Example: Comparator Transient
+### System's Transient Analysis
 
-```text
-Input: 50 pA | Tint: 180 µs
-Result: Clean transition across Vref
-```
+![Complete System's Response](https://github.com/EshwarAllampally/Cryogenic-CMOS-Current-Sensor/blob/main/Assets/media/0_master_v1_1.png)
 
 These matched the expected waveforms from the reference paper.
 
----
-
-## 📐 Area / Footprint Estimation
+## Area / Footprint Estimation
 
 Our guesstimate (based on typical 65nm CMOS layout metrics):
 
@@ -171,11 +166,7 @@ Our guesstimate (based on typical 65nm CMOS layout metrics):
   * 60% by capacitors and analog switches
   * 40% by bias circuits and amp transistors
 
-> We skipped layout due to time, but the block-level design gives a realistic ballpark.
-
----
-
-## 🔭 Next Steps (Where This Could Go)
+## Next Steps (Where This Could Go)
 
 1. **Use Cryo Models**: Redo sims using actual cryogenic PDKs (like Intel/SkyWater)
 2. **Full Layout + DRC/LVS**: Tape-out ready block for MPW shuttles
@@ -183,14 +174,10 @@ Our guesstimate (based on typical 65nm CMOS layout metrics):
 4. **Digital Integration**: Hook up to a backend readout chain or controller
 5. **Packaging + Measurement**: Integrate with real quantum chips (SET or QPC)
 
----
-
 ## Authors
 
 * **Eshwar (MT2024504)** 
 * **Manoj (MT2024543)**
-
----
 
 ## References
 
@@ -200,5 +187,3 @@ Our guesstimate (based on typical 65nm CMOS layout metrics):
 ## Final Word
 
 This was a dive into the nitty-gritty of **precision analog design**, with a splash of **quantum hardware relevance**. The integrator + CDS combo is a practical analog front-end that scales with CMOS — and could be the unsung hero of low-temp quantum readout.
-
----
