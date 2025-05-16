@@ -161,7 +161,7 @@ These matched the expected waveforms from the reference paper.
 
 Our guesstimate (based on typical 65nm CMOS layout metrics):
 
-* **Integrator + CDS + Opamp** ≈ **0.045 mm²**
+* **Integrator + CDS + Opamp** ≈ **0.030 mm²**
 
   * 60% by capacitors and analog switches
   * 40% by bias circuits and amp transistors
