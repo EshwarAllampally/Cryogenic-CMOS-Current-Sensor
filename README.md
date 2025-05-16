@@ -181,8 +181,8 @@ Our guesstimate (based on typical 65nm CMOS layout metrics):
 
 ## References
 
-* IEEE Paper: *A Cryogenic CMOS Current Integrator and CDS for Spin Qubit Readout* \[Fuketa et al., 2023]
-* Boyle & Smith: CDS invention in CCDs (Bell Labs)
+* IEEE Paper: [*A Cryogenic CMOS Current Integrator and CDS for Spin Qubit Readout*](https://www.researchgate.net/publication/374302416_A_Cryogenic_CMOS_Current_Integrator_and_Correlation_Double_Sampling_Circuit_for_Spin_Qubit_Readout)
+* [Boyle & Smith: CDS invention in CCDs (Bell Labs)](https://historyofinformation.com/detail.php?id=877)
 
 ## Final Word
 
